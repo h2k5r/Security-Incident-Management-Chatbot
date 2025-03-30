@@ -1,0 +1,22 @@
+security_chatbot/
+├── .env
+├── main.py
+├── requirements.txt
+├── run.py
+├── app/
+│   ├── __init__.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   └── alert.py
+│   ├── routes/
+│   │   ├── __init__.py
+│   │   └── alert_routes.py
+│   └── utils/
+│       ├── __init__.py
+│       ├── gemini_integration.py
+│       ├── jira_integration.py
+│       └── slack_integration.py
+├── config/
+│   ├── elastic_config.yml
+│   └── thehive_config.yml
+└── README.md
